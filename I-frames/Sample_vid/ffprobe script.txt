@@ -1,0 +1,6 @@
+ffprobe -v error -show_entries frame=pict_type -of default=noprint_wrappers=1 shooting_survivor_confronts_nra_spokesperson_1080p.mp4
+
+ffprobe -select_streams v -show_frames \
+-show_entries frame=pict_type \
+-of csv shooting_survivor_confronts_nra_spokesperson_1080p.mp4 \
+| grep -n I | cut -d ':' -f 1 > frame_indices.txt

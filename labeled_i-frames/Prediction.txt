@@ -1,0 +1,5 @@
+각 Label (cluster)끼리의 거리 예상
+1) 1_Survivor, 2_Spokesman, 3_Man은 단독샷+비슷한 배경의 이유로 cluster끼리의 거리가 가까울 듯
+2) 5_Survivor_Spokesman, 6_Teacher_Spokesman은 위와 비슷한 이유로 거리가 가까울 듯
+3) 4_Teacher, 7_Man_Spokesman도 마찬가지
+4) 8_Stage는 독립적인 cluster로 어딘가에 위치할 것이고, 9_Misc는 cluster가 되지 못하고 각 element가 산개해 있을 듯
